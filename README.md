@@ -16,3 +16,5 @@
 
 ### Демонстрация:
 
+
+<img align="left" alt="GIF" src="https://github.com/TomilinWow/lk-contacts/blob/master/test.gif" width="600" height="375" />
