@@ -13,12 +13,6 @@
   ],
   "contacts": [
     {
-      "userId": 1,
-      "name": "Tomilin",
-      "phone": "79929922333",
-      "id": 3
-    },
-    {
       "userId": 2,
       "name": "Дочь",
       "phone": "79922222237",
@@ -26,7 +20,7 @@
     },
     {
       "userId": 2,
-      "name": "Брат",
+      "name": "Брат2",
       "phone": "79922232232",
       "id": 11
     },
@@ -43,22 +37,33 @@
       "id": 13
     },
     {
-      "userId": 2,
-      "name": "Кухня",
-      "phone": "79922422232",
-      "id": 14
-    },
-    {
       "userId": 1,
-      "name": "test",
-      "phone": "7992223232",
-      "id": 15
-    },
-    {
-      "userId": 1,
-      "name": "123",
-      "phone": "123",
+      "name": "Dad",
+      "phone": "7992292923",
       "id": 16
+    },
+    {
+      "userId": 1,
+      "name": "Mother",
+      "phone": "7823823828",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "name": "Test",
+      "phone": "7283283823",
+      "id": 19
+    },
+    {
+      "name": "1231",
+      "phone": "23",
+      "id": 21
+    },
+    {
+      "userId": 2,
+      "name": "Jack",
+      "phone": "782828282",
+      "id": 22
     }
   ]
 }

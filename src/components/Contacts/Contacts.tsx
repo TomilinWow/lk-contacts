@@ -1,7 +1,6 @@
 import {PlusCircleOutlined} from '@ant-design/icons';
 import {Button, Row} from 'antd';
 import React, {useEffect, useState} from 'react';
-import {useAppSelector} from "../../hooks/useAppSelector";
 import styles from './Contacts.module.scss'
 import {Header} from "../Header/Header";
 import {fetchContacts} from "../../store/slices/contacts/actionCreators";
@@ -15,7 +14,6 @@ import {ContactTable} from "./ContactTable/ContactTable";
 
 const Contacts: React.FC = () => {
 
-    const {user} = useAppSelector(state => state.user)
     const dispatch = useAppDispatch()
 
     const [currentContact, setCurrentContact] = useState<IContacts | null>(null);
@@ -27,6 +25,7 @@ const Contacts: React.FC = () => {
 
 
     useEffect(() => {
+        const user = JSON.parse(localStorage.getItem('user') || '{}')
         if (user) {
             dispatch(fetchContacts(user.id))
         }

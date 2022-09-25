@@ -123,7 +123,6 @@ export const ContactTable: FC<AddFormType> = ({setCurrentContact, setIsVisibleEd
             width: isMobile ? 60 : 100,
             ellipsis: true,
             ...getColumnSearchProps('name'),
-            defaultSortOrder: 'ascend',
 
         },
         {

@@ -3,6 +3,7 @@ import {useAppSelector} from "./hooks/useAppSelector";
 import {FC} from "react";
 import Contacts from "./components/Contacts/Contacts";
 import Login from "./components/Login/Login";
+import {MyRoutes} from "./tools/constants";
 
 
 export const AppRoutes: FC = () => {
@@ -12,16 +13,16 @@ export const AppRoutes: FC = () => {
         <>
             <Routes>
                 <Route
-                    path="/"
-                    element={ isAuth ? <Navigate to='/contacts' /> : <Navigate to='/login'/>}
+                    path={MyRoutes.Home}
+                    element={ isAuth ? <Navigate to={MyRoutes.Contacts} /> : <Navigate to={MyRoutes.Login}/>}
                 />
                 <Route
-                    path='/login'
-                    element={ isAuth ? <Navigate to='/contacts' /> : <Login />}
+                    path={MyRoutes.Login}
+                    element={ isAuth ? <Navigate to={MyRoutes.Contacts} /> : <Login />}
                 />
                 <Route
-                    path='/contacts'
-                    element={ isAuth ? <Contacts /> : <Navigate to='/login' />}
+                    path={MyRoutes.Contacts}
+                    element={ isAuth ? <Contacts /> : <Navigate to={MyRoutes.Login} />}
                 />
             </Routes>
         </>

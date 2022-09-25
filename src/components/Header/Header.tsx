@@ -5,6 +5,7 @@ import {LogoutOutlined} from "@ant-design/icons";
 import {useAppDispatch} from "../../hooks/useAppDispatch";
 import {logout} from "../../store/slices/auth/authSlice";
 import {useNavigate} from "react-router-dom";
+import {MyRoutes} from "../../tools/constants";
 
 
 export const Header = () => {
@@ -14,9 +15,8 @@ export const Header = () => {
     const history = useNavigate();
 
     const handleLogout = () => {
-
         dispatch(logout())
-        history('/');
+        history(MyRoutes.Home);
     }
 
     return (
