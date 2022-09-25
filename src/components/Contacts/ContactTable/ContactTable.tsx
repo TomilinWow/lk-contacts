@@ -40,7 +40,6 @@ export const ContactTable: FC<AddFormType> = ({setCurrentContact, setIsVisibleEd
         confirm: (param?: FilterConfirmProps) => void,
         dataIndex: DataIndex,
     ) => {
-        console.log(selectedKeys, dataIndex)
         confirm();
         setSearchText(selectedKeys[0]);
         setSearchedColumn(dataIndex);

@@ -11,7 +11,6 @@ export const fetchContacts = createAsyncThunk(
         try {
             const response = await axios.get<IUser[]>(`http://localhost:3001/contacts?userId=${id}`)
             const contacts = response.data;
-            console.log(contacts)
             return contacts;
 
         } catch (e) {

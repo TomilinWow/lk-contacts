@@ -16,7 +16,6 @@ const Login: React.FC = () => {
 
     const onFinish = async (data: IData) => {
         const isUser = await dispatch(fetchUsers(data)).unwrap();
-        console.log(isUser)
 
         if (isUser) {
             dispatch(login());
