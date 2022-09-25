@@ -72,7 +72,7 @@ export const EditForm: FC<EditFormType> = ({isVisible, cancelEditForm, contact})
                         {required: true, message: 'Пожалуйста, введите номер телефона'},
                     ]}
                 >
-                    <Input placeholder='Номер'/>
+                    <Input placeholder='Номер телефона'/>
                 </Form.Item>
 
                 <Form.Item>

@@ -2,27 +2,87 @@
   "users": [
     {
       "id": 1,
-      "username": "Egor",
-      "password": "123"
+      "username": "Test",
+      "password": "12345"
     },
     {
       "id": 2,
-      "username": "AdminAdminAdmin",
-      "password": "123"
+      "username": "Admin",
+      "password": "12345"
     }
   ],
   "contacts": [
     {
       "id": 2,
-      "name": "«Горячая линия»",
-      "phone": "8 (812) 312‑95‑94",
+      "name": "Горячая линия",
+      "phone": "79922882232",
       "userId": 1
     },
     {
-      "userId": 2,
-      "name": "123",
-      "phone": "123",
+      "userId": 1,
+      "name": "Tomilin",
+      "phone": "79929922232",
       "id": 3
+    },
+    {
+      "userId": 1,
+      "name": "Банк",
+      "phone": "79922222222",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "name": "Jack",
+      "phone": "79922222232",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "name": "Дом",
+      "phone": "79922222233",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "name": "Дочь",
+      "phone": "79922222237",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "name": "Брат",
+      "phone": "79922232232",
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "name": "Сестра",
+      "phone": "79923232232",
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "name": "Телефон",
+      "phone": "79932222232",
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "name": "Кухня",
+      "phone": "79922422232",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "name": "Егор",
+      "phone": "79922333232",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "name": "Солнце",
+      "phone": "79966666232",
+      "id": 16
     }
   ]
 }

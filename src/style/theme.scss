@@ -2,10 +2,6 @@
 
 $color: #242526;
 
-$color-standart: #7241c2;
-$color-active: #9265d3;
-$color-border-active: #a974f5;
-
 .ant-layout {
   background-color: $color!important;
 }
@@ -15,16 +11,8 @@ $color-border-active: #a974f5;
   border: 1px solid $color;
 }
 
-.ant-row .ant-form-item-row {
-  display: flex!important;
-  justify-content: center!important;
-}
-
 .ant-form-item-explain-error {
   color: #c30029;
   font-weight: 600;
 }
 
-.ant-table-container {
-  border-radius: 10px!important;
-}

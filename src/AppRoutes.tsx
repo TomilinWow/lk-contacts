@@ -13,13 +13,7 @@ export const AppRoutes: FC = () => {
             <Routes>
                 <Route
                     path="/"
-                    element={
-                        isAuth ? (
-                            <Navigate to='/contacts' />
-                        ) : (
-                            <Navigate to='/login' />
-                        )
-                    }
+                    element={ isAuth ? <Navigate to='/contacts' /> : <Navigate to='/login'/>}
                 />
                 <Route
                     path='/login'

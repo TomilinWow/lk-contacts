@@ -17,10 +17,8 @@ export const authSlice = createSlice({
             localStorage.setItem('isAuth', 'true');
         },
         logout: (state) => {
-            console.log('login')
             state.isAuth = false;
             localStorage.setItem('isAuth', 'false');
-            localStorage.removeItem('user')
         },
     },
 });

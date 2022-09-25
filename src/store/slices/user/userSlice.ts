@@ -24,7 +24,6 @@ export const userSlice = createSlice({
             state.isLoading = false;
             if (action.payload) {
                 state.user = action.payload;
-                localStorage.setItem('user', JSON.stringify(action.payload, ["id", "username"]));
                 state.error = '';
             }
         },

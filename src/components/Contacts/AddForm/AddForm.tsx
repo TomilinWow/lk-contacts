@@ -22,7 +22,7 @@ export const AddForm: FC<AddFormType> = ({isVisible, cancelAddForm}) => {
     const dispatch = useAppDispatch();
 
     const onFinish = async ({name, phone}: IFormValues) => {
-        console.log(user)
+
         await dispatch(addContact({
             userId: user.id,
             name: name,
@@ -61,7 +61,7 @@ export const AddForm: FC<AddFormType> = ({isVisible, cancelAddForm}) => {
                         {required: true, message: 'Пожалуйста, введите номер телефона'},
                     ]}
                 >
-                    <Input placeholder='Номер'/>
+                    <Input placeholder='Номер телефона'/>
                 </Form.Item>
 
                 <Form.Item>
