@@ -12,7 +12,10 @@
 2. npm install
 3. npm run start - запускает приложение на http://localhost:3000 
 4. npm run server - json server на http://localhost:3001 
-5. Версия node v16.14.0
+5. Тестовый аккаунт: 
+    - логин: Test
+    - пароль: 12345
+7. Версия node v16.14.0
 
 ### Демонстрация:
 
